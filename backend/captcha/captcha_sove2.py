@@ -147,6 +147,7 @@ def get_coordinates(driver: WebDriver, api_key: str, max_wait: int = 120) -> Lis
 
         # Parse and, if too few/many points, keep polling the SAME captcha ID a few extra times
         attempts_left = 4  # total extra polls (approx 12-15 s)
+        # First polling loop to obtain a seemingly complete set of coords
         while True:
             coords = csolver._parse_coords(raw)
             logger.info(f"[captcha_sove2] Parsed {len(coords)} coordinate points: {coords}")
@@ -159,6 +160,21 @@ def get_coordinates(driver: WebDriver, api_key: str, max_wait: int = 120) -> Lis
             logger.info("[captcha_sove2] Coordinate count seems incomplete; polling again in 3s …")
             time.sleep(3)
             raw = csolver._poll_result(api_key, captcha_id)
+
+        # Confirmation poll – fetch the result one more time and make sure it's the same to reduce errors
+        try:
+            time.sleep(1.5)
+            confirm_raw = csolver._poll_result(api_key, captcha_id)
+            confirm_coords = csolver._parse_coords(confirm_raw)
+            if confirm_coords == coords:
+                logger.info("[captcha_sove2] Confirmation poll matched first result – proceeding")
+            elif 3 <= len(confirm_coords) <= 6:
+                logger.info(f"[captcha_sove2] Confirmation poll differs, using confirmed coords: {confirm_coords}")
+                coords = confirm_coords
+            else:
+                logger.warning("[captcha_sove2] Confirmation poll produced invalid coords, keeping initial result")
+        except Exception as conf_err:
+            logger.debug(f"[captcha_sove2] Error during confirmation poll: {conf_err}")
 
         # Add element offset if we cropped
         if offset != (0,0):

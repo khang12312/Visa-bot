@@ -90,13 +90,21 @@ class AppointmentFormHandler:
             return False
         try:
             logger.info(f"[AppointmentForm] Selecting '{option_text}' in '{label_text}' dropdown")
-            # Find the label first to anchor relative search (more stable than random divs)
+            # Locate ALL matching labels; choose the first whose associated dropdown is visible
             label_xpath = f"//label[contains(normalize-space(text()), '{label_text}')]"
-            label_elem = WebDriverWait(self.driver, 5).until(
-                EC.presence_of_element_located((By.XPATH, label_xpath))
-            )
-            # The dropdown wrap is usually the following sibling span with class k-dropdown
-            dropdown_wrap = label_elem.find_element(By.XPATH, "following::span[contains(@class,'k-dropdown')][1]")
+            all_labels = self.driver.find_elements(By.XPATH, label_xpath)
+            dropdown_wrap = None
+            for lbl in all_labels:
+                try:
+                    cand = lbl.find_element(By.XPATH, "following::span[contains(@class,'k-dropdown')][1]")
+                    if cand.is_displayed():
+                        dropdown_wrap = cand
+                        break
+                except Exception:
+                    continue
+            if dropdown_wrap is None:
+                raise NoSuchElementException(f"Visible dropdown for '{label_text}' not found")
+            # Scroll into view & click
             self.bot.move_to_element_with_randomness(dropdown_wrap)
             dropdown_wrap.click()
             # After click, listbox <ul> becomes visible – get its id via aria-owns of span or look for open popup
@@ -105,11 +113,14 @@ class AppointmentFormHandler:
                 list_xpath = f"//ul[@id='{listbox_id}']/li"
             else:
                 list_xpath = "//ul[contains(@class,'k-list') and not(contains(@style,'display: none'))]/li"
-            option_elem = WebDriverWait(self.driver, 5).until(
-                EC.element_to_be_clickable((By.XPATH, f"{list_xpath}[contains(translate(normalize-space(text()),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{option_text.lower()}')]"))
+            # Wait for list to render and desired option to appear
+            option_xpath = f"{list_xpath}[contains(translate(normalize-space(text()),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{option_text.lower()}')]"
+            option_elem = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, option_xpath))
             )
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", option_elem)
             option_elem.click()
-            time.sleep(random.uniform(0.4, 0.8))
+            time.sleep(random.uniform(0.6, 1.0))
             return True
         except Exception as exc:
             logger.error(f"[AppointmentForm] Failed selecting '{option_text}' in '{label_text}': {exc}")

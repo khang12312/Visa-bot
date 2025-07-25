@@ -35,6 +35,8 @@ class LoginHandler:
         self.captcha_api_key = captcha_api_key
         self.max_login_attempts = 8  # increased for reliability
         self.max_captcha_attempts = 5  # increased to allow more retries
+        # Internal counter to track recursive login retries
+        self._login_attempt_counter = 0
 
     def _retype_password(self):
         """Clears any existing password input and retypes the stored password."""
@@ -77,6 +79,10 @@ class LoginHandler:
                 self.login_url in url)
 
     def login(self):
+        """Login to the Italy visa appointment website with human-like behavior.
+        Automatically retries the entire flow when the website redirects back to the
+        Login URL with an `err=` query string.
+        """
         """Login to the Italy visa appointment website with human-like behavior."""
         # Wrap the entire method in a try-except to catch any unexpected errors
         try:
@@ -497,9 +503,18 @@ class LoginHandler:
                 self.driver.save_screenshot(screenshot_img_path)
                 logger.info(f"Saved screenshot to {screenshot_img_path}")
                 
+                # Detect error redirect and retry full login automatically
+                if "err=" in self.driver.current_url.lower():
+                    logger.warning("Detected error login redirect (err=). Retrying full login flow …")
+                    time.sleep(random.uniform(1.0, 2.0))
+                    # Navigate fresh to login page before retrying
+                    self.driver.get(self.login_url)
+                    return self.login()
                 return False
             
             logger.info("✅ Login successful")
+            # Reset counter on success so future logins start fresh
+            self._login_attempt_counter = 0
             return True
             
         except TimeoutException as e:

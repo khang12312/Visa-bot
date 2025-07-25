@@ -391,10 +391,36 @@ class VisaCheckerBot:
             # Check current URL and take appropriate action
             self.check_current_url_and_act()
             
-            # Check for appointment availability
-            if not self.check_appointment_availability():
-                logger.info("No appointments available")
-                return True  # Not an error, just no appointments
+            # ---- Persistent polling for appointment availability ----
+            polling_enabled = os.getenv("POLLING_ENABLED", "true").lower() in ("1","true","yes")
+            poll_interval = int(os.getenv("POLLING_INTERVAL_SEC", "120"))
+
+            while True:
+                if self.check_appointment_availability():
+                    logger.info("Appointments appear to be available – proceeding with booking flow")
+                    break  # exit loop and continue workflow
+                else:
+                    if not polling_enabled:
+                        logger.info("No appointments available and polling disabled – exiting")
+                        return True
+                    logger.info(f"No appointments available – will retry in {poll_interval} seconds while staying logged in…")
+                    time.sleep(poll_interval)
+
+                    # Simple session check – if login page detected, re-login
+                    current_url = self.driver.current_url
+                    if "account/login" in current_url.lower():
+                        logger.warning("Session appears logged out, re-logging in …")
+                        if not self.login():
+                            logger.error("Re-login failed while polling – aborting")
+                            return False
+                    else:
+                        # Attempt to navigate back to main or appointments page
+                        try:
+                            self.navigation_handler.go_to_dashboard()
+                        except Exception:
+                            # fallback reload target_url
+                            self.driver.get(self.target_url)
+                    # Loop continues
             
             # Select an appointment
             if not self.select_appointment():
@@ -424,6 +450,21 @@ class VisaCheckerBot:
                     logger.error("Failed to complete application")
                     return False
             
+            # Optionally send email notification that appointment flow executed/completed
+            try:
+                notify_email = os.getenv("NOTIFY_EMAIL")
+                if notify_email:
+                    from backend.email.email_handler import send_notification
+                    send_notification(
+                        sender_email=self.email,
+                        sender_password=self.password,
+                        recipient_email=notify_email,
+                        subject="VisaBot – Appointment Found",
+                        message="VisaBot has detected an appointment and initiated the booking flow."
+                    )
+            except Exception as exc:
+                logger.warning(f"Notification email failed: {exc}")
+
             logger.info("Visa Checker Bot workflow completed successfully")
             return True
         except Exception as e:

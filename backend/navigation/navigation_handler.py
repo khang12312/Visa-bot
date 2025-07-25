@@ -151,6 +151,14 @@ class NavigationHandler:
             logger.error(f"Error navigating to target URL: {str(e)}")
             return False
 
+    def navigate_to_target(self):
+        """Backward-compatibility wrapper for deprecated navigate_to_target_url."""
+        logger.debug("[NavigationHandler] navigate_to_target() proxy called")
+        if hasattr(self, 'navigate_to_target_url'):
+            return self.navigate_to_target_url()
+        logger.error("navigate_to_target_url not implemented")
+        return False
+
     def navigate_to_login_url(self):
         """
         Navigate to the login URL with human-like behavior.
