@@ -1,0 +1,14 @@
+{
+    "t3D": "true",
+    "tADe": "animationDelay",
+    "tADu": "animationDuration",
+    "tAE": "animationend",
+    "tC": "calc",
+    "tMQ": "true",
+    "tPL": "true",
+    "tTDe": "transitionDelay",
+    "tTDu": "transitionDuration",
+    "tTE": "transitionend",
+    "tTf": "transform",
+    "tnsApp": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15"
+}

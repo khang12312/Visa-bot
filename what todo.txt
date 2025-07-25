@@ -1,0 +1,307 @@
+after clico n on book appointment it will redirect on this url https://appointment.theitalyvisa.com/Global/account/Login?returnUrl=%2FGlobal%2Fappointment%2Fnewappointment&err=HU7zqU0yCxX3GNnx4emgb8d%2FwA73yBclF%2B5Wi%2B0CSYM%3D and its show here first select date and the date system is like if any date colur have green so apoint ment available and it will click on thats date <div id="div-main" class="row pb-3 pl-5 pr-5">
+        <div class="d-none d-sm-block col-md-3">
+        </div>
+        <div class="shadow rounded-3 p-3 col-md-3 d-sm-12">
+            <div class="text-center col-12">
+                <a href="index.html">
+                </a>
+            </div>
+            <form method="post" action="/Global/Appointment/SlotSelection" novalidate="novalidate">
+                <div class="validation-summary text-danger mb-3 validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                <div class="row">
+<div class="mb-3 fgzarhv rfogusfjw iaogvyycm lspykchjf uprmr zdcswc orjifj ojdlbh kjehuvkcq czuafk msymwohia utphwqgxm cfhscwktg dbtfi wskenmhsc vwcyiife omfdxjyf tnuasuflv jzjtfhfmz cftdomij dbvjbdkz rokgein vwyllwx dolrehyq zpprpb vwtvg clsijdpwy zltocmh xdapi ggksmflgm wpqlyp uglze mt-4">
+                        <label class="form-label" for="weltf">Appointment Date<span class="required">*</span></label>
+                        <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input id="weltf" name="weltf" class="form-control k-input valid" data-role="datepicker" type="text" role="combobox" aria-expanded="false" aria-owns="weltf_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;" aria-activedescendant="j4ea48c6-7458-4764-889f-d53bb10e806e_cell_selected" aria-invalid="false"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="weltf_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                    </div><div class="mb-3 utphwqgxm vwcyiife msymwohia czuafk rfogusfjw clsijdpwy fgzarhv dbvjbdkz wskenmhsc zpprpb orjifj vwtvg jzjtfhfmz vwyllwx cfhscwktg ggksmflgm omfdxjyf dbtfi ojdlbh zdcswc cftdomij lspykchjf rokgein qozpnf kjehuvkcq iaogvyycm uprmr wpqlyp xdapi dolrehyq zltocmh mt-4">
+                        <label class="form-label" for="alxxmy">Appointment Date<span class="required">*</span></label>
+                        <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input id="alxxmy" name="alxxmy" class="form-control k-input" data-role="datepicker" type="text" role="combobox" aria-expanded="false" aria-owns="alxxmy_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="alxxmy_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                    </div><div class="mb-3 qozpnf cftdomij zarnt ieiahj ojdlbh zpprpb iidodk dmlxfxekb omfdxjyf wpqlyp orjifj iaogvyycm ifbkshd ljiijcg tnuasuflv fgzarhv lspykchjf msymwohia utphwqgxm dbvjbdkz ccptvym xdapi vwyllwx zltocmh czuafk jzjtfhfmz bjhvog dolrehyq vwcyiife jxqym dbtfi clsijdpwy rokgein kjehuvkcq cfhscwktg uprmr vwtvg nzbaives yctqybfti zdcswc rfogusfjw ggksmflgm wskenmhsc mt-4">
+                        <label class="form-label" for="byzpkswvx">Appointment Date<span class="required">*</span></label>
+                        <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input id="byzpkswvx" name="byzpkswvx" class="form-control k-input" data-role="datepicker" type="text" role="combobox" aria-expanded="false" aria-owns="byzpkswvx_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="byzpkswvx_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                    </div><div class="mb-3 vwtvg tnuasuflv ccptvym qozpnf yctqybfti xdapi zarnt clsijdpwy jxqym vwcyiife zpprpb cfhscwktg ljiijcg wpqlyp iaogvyycm wskenmhsc rokgein dmlxfxekb orjifj lspykchjf cftdomij msymwohia rfogusfjw ieiahj uprmr fgzarhv ojdlbh dbvjbdkz zltocmh zdcswc kjehuvkcq vwyllwx omfdxjyf iidodk dbtfi dolrehyq ggksmflgm czuafk utphwqgxm jzjtfhfmz mt-4">
+                        <label class="form-label" for="psoeem">Appointment Date<span class="required">*</span></label>
+                        <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input id="psoeem" name="psoeem" class="form-control k-input" data-role="datepicker" type="text" role="combobox" aria-expanded="false" aria-owns="psoeem_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="psoeem_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                    </div><div class="mb-3 zltocmh vwcyiife orjifj clsijdpwy xdapi dolrehyq vwyllwx vwtvg jzjtfhfmz qozpnf wpqlyp cftdomij dbvjbdkz cfhscwktg zpprpb lspykchjf wskenmhsc msymwohia ggksmflgm mt-4">
+                        <label class="form-label" for="mujqio">Appointment Date<span class="required">*</span></label>
+                        <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input id="mujqio" name="mujqio" class="form-control k-input" data-role="datepicker" type="text" role="combobox" aria-expanded="false" aria-owns="mujqio_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="mujqio_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                    </div> <div class="mb-3 vwcyiife iaogvyycm zpprpb wpqlyp msymwohia tnuasuflv rokgein kjehuvkcq uglze dolrehyq ljiijcg dbvjbdkz lspykchjf czuafk zltocmh cftdomij orjifj zdcswc cfhscwktg fgzarhv xdapi ojdlbh uprmr jzjtfhfmz wskenmhsc utphwqgxm omfdxjyf ggksmflgm vwyllwx vwtvg dbtfi rfogusfjw clsijdpwy yctqybfti mt-5">
+                        <label class="form-label" for="zcgpjjse" id="zcgpjjse_label">Appointment Slot<span class="required">*</span></label>
+                        <span title="" class="k-widget k-dropdown form-control" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="true" tabindex="0" aria-owns="zcgpjjse_listbox" aria-labelledby="zcgpjjse_label" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="e5045308-78d0-4a86-9547-b84e64481f74" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="e5045308-78d0-4a86-9547-b84e64481f74" unselectable="on" role="option" aria-selected="true" class="k-input">--Select--</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><input id="zcgpjjse" name="zcgpjjse" class="form-control" data-role="dropdownlist" style="display: none;"></span>
+                    </div> <div class="mb-3 qozpnf wskenmhsc cftdomij zpprpb lspykchjf dbvjbdkz xdapi cfhscwktg ggksmflgm clsijdpwy vwcyiife mt-5">
+                        <label class="form-label" for="fvvdaielz" id="fvvdaielz_label">Appointment Slot<span class="required">*</span></label>
+                        <span title="" class="k-widget k-dropdown form-control" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="fvvdaielz_listbox" aria-labelledby="fvvdaielz_label" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="pc4a24d5-36d2-444e-a4d4-d3cce6c07366" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="pc4a24d5-36d2-444e-a4d4-d3cce6c07366" unselectable="on" role="option" aria-selected="true" class="k-input">--Select--</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><input id="fvvdaielz" name="fvvdaielz" class="form-control" data-role="dropdownlist" style="display: none;"></span>
+                    </div> <div class="mb-3 zarnt orjifj dmlxfxekb vwyllwx iidodk cfhscwktg fgzarhv rfogusfjw dbvjbdkz nzbaives msymwohia kjehuvkcq zpprpb ieiahj utphwqgxm czuafk dolrehyq vwtvg omfdxjyf rokgein tnuasuflv wskenmhsc jzjtfhfmz xdapi ggksmflgm qozpnf ifbkshd vwcyiife uprmr ljiijcg yctqybfti ojdlbh lspykchjf dbtfi wpqlyp iaogvyycm ccptvym zltocmh clsijdpwy zdcswc cftdomij jxqym mt-5">
+                        <label class="form-label" for="rehiz" id="rehiz_label">Appointment Slot<span class="required">*</span></label>
+                        <span title="" class="k-widget k-dropdown form-control" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="rehiz_listbox" aria-labelledby="rehiz_label" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="w5ad7e37-919c-4bae-aa33-8c5e1e6102f8" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="w5ad7e37-919c-4bae-aa33-8c5e1e6102f8" unselectable="on" role="option" aria-selected="true" class="k-input">--Select--</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><input id="rehiz" name="rehiz" class="form-control" data-role="dropdownlist" style="display: none;"></span>
+                    </div> <div class="mb-3 orjifj tnuasuflv qozpnf clsijdpwy ljiijcg zarnt yctqybfti zltocmh rokgein vwyllwx dbtfi wskenmhsc zdcswc iaogvyycm msymwohia utphwqgxm vwcyiife uprmr kjehuvkcq czuafk cfhscwktg dolrehyq iidodk fgzarhv rfogusfjw omfdxjyf lspykchjf dbvjbdkz vwtvg zpprpb jzjtfhfmz xdapi ojdlbh ggksmflgm wpqlyp jxqym cftdomij mt-5">
+                        <label class="form-label" for="adygezuw" id="adygezuw_label">Appointment Slot<span class="required">*</span></label>
+                        <span title="" class="k-widget k-dropdown form-control" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="adygezuw_listbox" aria-labelledby="adygezuw_label" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="r3868dfc-eb88-4a7c-9793-8678fc6ba4a4" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="r3868dfc-eb88-4a7c-9793-8678fc6ba4a4" unselectable="on" role="option" aria-selected="true" class="k-input">--Select--</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><input id="adygezuw" name="adygezuw" class="form-control" data-role="dropdownlist" style="display: none;"></span>
+                    </div> <div class="mb-3 ggksmflgm wpqlyp omfdxjyf qozpnf clsijdpwy lspykchjf dbvjbdkz jzjtfhfmz msymwohia fgzarhv xdapi wskenmhsc zltocmh vwtvg zdcswc cfhscwktg dolrehyq dbtfi zpprpb vwcyiife uprmr orjifj cftdomij kjehuvkcq vwyllwx mt-5">
+                        <label class="form-label" for="wqcpaqtp" id="wqcpaqtp_label">Appointment Slot<span class="required">*</span></label>
+                        <span title="" class="k-widget k-dropdown form-control" unselectable="on" role="listbox" aria-haspopup="listbox" aria-expanded="false" tabindex="0" aria-owns="wqcpaqtp_listbox" aria-labelledby="wqcpaqtp_label" aria-live="polite" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="cd1e77d0-084e-4661-b268-374b78edc744" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span id="cd1e77d0-084e-4661-b268-374b78edc744" unselectable="on" role="option" aria-selected="true" class="k-input">--Select--</span><span unselectable="on" class="k-select" aria-label="select"><span class="k-icon k-i-arrow-60-down"></span></span></span><input id="wqcpaqtp" name="wqcpaqtp" class="form-control" data-role="dropdownlist" style="display: none;"></span>
+                    </div>
+<script>
+                                    $(document).ready(function () { 
+                                        
+$("#weltf").kendoDatePicker({
+                                        format: "{0:yyyy-MM-dd}",
+                                        change: weltf_ondatechange,
+                                        open: OnAppointmentDateOpen,
+                                        
+                                });LoadAppointmentDates('weltf');
+$("#alxxmy").kendoDatePicker({
+                                        format: "{0:yyyy-MM-dd}",
+                                        change: alxxmy_ondatechange,
+                                        open: OnAppointmentDateOpen,
+                                        
+                                });LoadAppointmentDates('alxxmy');
+$("#byzpkswvx").kendoDatePicker({
+                                        format: "{0:yyyy-MM-dd}",
+                                        change: byzpkswvx_ondatechange,
+                                        open: OnAppointmentDateOpen,
+                                        
+                                });LoadAppointmentDates('byzpkswvx');
+$("#psoeem").kendoDatePicker({
+                                        format: "{0:yyyy-MM-dd}",
+                                        change: psoeem_ondatechange,
+                                        open: OnAppointmentDateOpen,
+                                        
+                                });LoadAppointmentDates('psoeem');
+$("#mujqio").kendoDatePicker({
+                                        format: "{0:yyyy-MM-dd}",
+                                        change: mujqio_ondatechange,
+                                        open: OnAppointmentDateOpen,
+                                        
+                                });LoadAppointmentDates('mujqio');
+ $("#zcgpjjse").kendoDropDownList({
+                                    optionLabel: "--Select--",
+                                    dataTextField: "Name",
+                                    dataValueField: "Id",
+                                    filter: "contains",
+                                    select: OnSlotSelect,
+                                    open: OnSlotOpen,
+                                    template: $("#Slottemplate").html(),
+                                    footerTemplate: ({ instance }) => $("#slot-footer-template").html(),
+                                    height: 500
+                                });
+ $("#fvvdaielz").kendoDropDownList({
+                                    optionLabel: "--Select--",
+                                    dataTextField: "Name",
+                                    dataValueField: "Id",
+                                    filter: "contains",
+                                    select: OnSlotSelect,
+                                    open: OnSlotOpen,
+                                    template: $("#Slottemplate").html(),
+                                    footerTemplate: ({ instance }) => $("#slot-footer-template").html(),
+                                    height: 500
+                                });
+ $("#rehiz").kendoDropDownList({
+                                    optionLabel: "--Select--",
+                                    dataTextField: "Name",
+                                    dataValueField: "Id",
+                                    filter: "contains",
+                                    select: OnSlotSelect,
+                                    open: OnSlotOpen,
+                                    template: $("#Slottemplate").html(),
+                                    footerTemplate: ({ instance }) => $("#slot-footer-template").html(),
+                                    height: 500
+                                });
+ $("#adygezuw").kendoDropDownList({
+                                    optionLabel: "--Select--",
+                                    dataTextField: "Name",
+                                    dataValueField: "Id",
+                                    filter: "contains",
+                                    select: OnSlotSelect,
+                                    open: OnSlotOpen,
+                                    template: $("#Slottemplate").html(),
+                                    footerTemplate: ({ instance }) => $("#slot-footer-template").html(),
+                                    height: 500
+                                });
+ $("#wqcpaqtp").kendoDropDownList({
+                                    optionLabel: "--Select--",
+                                    dataTextField: "Name",
+                                    dataValueField: "Id",
+                                    filter: "contains",
+                                    select: OnSlotSelect,
+                                    open: OnSlotOpen,
+                                    template: $("#Slottemplate").html(),
+                                    footerTemplate: ({ instance }) => $("#slot-footer-template").html(),
+                                    height: 500
+                                });
+                                         
+                                         
+                                    });
+                                    
+ function weltf_ondatechange(e) {
+                                        OnAppointmentdateChange('zcgpjjse,fvvdaielz,rehiz,adygezuw,wqcpaqtp','weltf');
+                                   }
+ function alxxmy_ondatechange(e) {
+                                        OnAppointmentdateChange('zcgpjjse,fvvdaielz,rehiz,adygezuw,wqcpaqtp','weltf');
+                                   }
+ function byzpkswvx_ondatechange(e) {
+                                        OnAppointmentdateChange('zcgpjjse,fvvdaielz,rehiz,adygezuw,wqcpaqtp','weltf');
+                                   }
+ function psoeem_ondatechange(e) {
+                                        OnAppointmentdateChange('zcgpjjse,fvvdaielz,rehiz,adygezuw,wqcpaqtp','weltf');
+                                   }
+ function mujqio_ondatechange(e) {
+                                        OnAppointmentdateChange('zcgpjjse,fvvdaielz,rehiz,adygezuw,wqcpaqtp','weltf');
+                                   }
+                               </script>                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary" id="btnSubmit" type="submit" onclick="return OnSubmitSlotSelection();">Submit</button>
+                </div>
+                <div class="text-right pt-3">
+                    (<span class="required">*</span>)&nbsp;<span>Mandatory Field</span>
+                </div>
+                
+                <input id="Data" name="Data" type="hidden" value="xF1X1iptDEa+6YMBOS2Xua+st5bVl0kwOzMwYeSefWF6gBLncM8DNXbPT1yssQ3mLvuNRnCQoz66FvZA4xCR21lEYMXr6z4t7RLZNMywsJScBpTMWTxnAYj6KzK74n/KaX3pDyrfNn52U+JZglxVAJRNxwqmQix80IL/h+Fx7t2KlcVMHJwkr4NXFB9F/+SF6VYIZHASWtjyQpN0MU927rMgD5gP61FzXzR5s4YyTBIkKHn5ZrIP7WihnDG/ooGMnQHY5MZ4xp6nT5AwiAcyvnWo94YqVY17+gwISnbNcx2mw1bx9l+H8Pc36stQsS/a">
+                <input id="ResponseData" name="ResponseData" type="hidden" value="{&quot;fscnbj&quot;:&quot;2676&quot;,&quot;hxkqrv&quot;:&quot;&quot;,&quot;axyuymwqk&quot;:&quot;&quot;,&quot;mehoodfvf&quot;:&quot;&quot;,&quot;yaytghma&quot;:&quot;&quot;,&quot;cxamwg&quot;:&quot;&quot;,&quot;hxxrs&quot;:&quot;&quot;,&quot;pvbsttsa&quot;:&quot;&quot;,&quot;aqhpyvvay&quot;:&quot;&quot;,&quot;hruig&quot;:&quot;5413&quot;,&quot;wkwiwgjd&quot;:&quot;&quot;,&quot;jyprrxeu&quot;:&quot;&quot;,&quot;tlzalb&quot;:&quot;4608&quot;,&quot;ilblkegrr&quot;:&quot;&quot;,&quot;uzatqstj&quot;:&quot;&quot;,&quot;zrcfprf&quot;:&quot;&quot;,&quot;wiupjcr&quot;:&quot;&quot;,&quot;iwxizwis&quot;:&quot;&quot;,&quot;vgrbs&quot;:&quot;&quot;,&quot;gegqchmm&quot;:&quot;3908&quot;,&quot;khykhbxwr&quot;:&quot;&quot;,&quot;dsokaweb&quot;:&quot;&quot;,&quot;qluaarjv&quot;:&quot;&quot;,&quot;nmhwf&quot;:&quot;&quot;,&quot;apnxkpblb&quot;:&quot;&quot;}">
+                <input id="AppointmentFor" name="AppointmentFor" type="hidden" value="Individual">
+                <input data-val="true" data-val-required="The SearchDate field is required." id="SearchDate" name="SearchDate" type="hidden" value="False">
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8HR2AoMI3LpApkZfZPiNaiZCuOsp2HMlrDneYjipYqXf6mdlY82gjnwarhvgoIVmbb55G_k5HqcHgs_xB0-iZqbyky5CkIM201K5eSerjIKkQaFiX8_a-L4XpRh3dFlvUb9xj-GWdPS_tCVr_eb1u_w44oSgEr70l-7XDZJumIZpbu1qtrdgIrIEQKAPHPkK3Q"></form>
+        </div>
+        <div class="d-none d-sm-block col-md-6">
+        </div>
+</div>      after date selecting it will select appoinment slot  it see the time and there is smame logic like green colour time available and red coulur is not available and after selecting it will clicick on this submit  button and it will redirect on anotehr url https://appointment.theitalyvisa.com/Global/Appointment/ApplicantSelection?data=KIVT0VBdSzM61VpiA9He9%2BdxC%2FwB6AJwsfdV2y4lcOB94o7x%2FFTmfWzJuADiOVeKcniGqp2tJCNJ%2BA20G1pjLt3OdmGq6cnKDdbbxRFC%2FIqHeeoSsaQXlrD40XM79%2FnjuqUH5kenRz6QpKDIkIJBwG9iC%2BAHrI7MQ7jp227xVsX318isE%2BqNIEJnl1A7fk0vWeFO%2F3KHAZ%2FoOpGYKEvHYUekhzzJEasi%2BGpmPWMJhGikLtXj%2BXxDxMKb55mfscxjCdRACo7Y7l3EOX3%2FEMyhFTOI4VDpYZkzfRhSeLh90RUh%2FRtc3WM9XEFazIPnl8TC
+
+note one thing after cliciking on book now button its show captcha if it
+
+
+and on this url https://appointment.theitalyvisa.com/Global/Appointment/ApplicantSelection?data=KIVT0VBdSzM61VpiA9He9%2BdxC%2FwB6AJwsfdV2y4lcOB94o7x%2FFTmfWzJuADiOVeKcniGqp2tJCNJ%2BA20G1pjLt3OdmGq6cnKDdbbxRFC%2FIqHeeoSsaQXlrD40XM79%2FnjuqUH5kenRz6QpKDIkIJBwG9iC%2BAHrI7MQ7jp227xVsX318isE%2BqNIEJnl1A7fk0vWeFO%2F3KHAZ%2FoOpGYKEvHYUekhzzJEasi%2BGpmPWMJhGikLtXj%2BXxDxMKb55mfscxjCdRACo7Y7l3EOX3%2FEMyhFTOI4VDpYZkzfRhSeLh90RUh%2FRtc3WM9XEFazIPnl8TC its show a  poup and its click on this button <button class="btn btn-primary" data-bs-dismiss="modal" onclick="return onTermsAgree();">I agree to provide my consent</button> and then its will show  <div class="shadow rounded-3 p-3 col-md-3 d-sm-12">
+            <form method="post" style="z-index:9999 !important;" action="/Global/Appointment/ApplicantSelection">
+                <div class="validation-summary text-danger mb-3 validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                <div class="">
+                    <div class="row">
+                        <div class="col-12 row">
+                            <div class="alert alert-warning text-center alert-ml">Kindly upload your recent photo, preferably taken in last 6 months. File Size should be less than 200 KB<span class="required">*</span></div>
+                            <div class="col-7">
+                                <img id="uploadfile-1-preview" style="height:180px;width:160px;border-radius:6px;" class="avatar-img shadow" src="/assets/images/avatar/01.jpg" alt="">
+                            </div>
+                            <div class="col-5">
+                                <label class="btn btn-sm btn-primary-soft mb-0 upload-photo-btn" for="uploadfile-1">Browse</label>
+                                <input id="uploadfile-1" onchange="onFileChange()" class="form-control d-none" type="file">
+                            </div>
+                        </div>
+                            <div class="col-12 pt-3">
+                                <hr>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <div class="alert alert-warning text-center">An OTP has been sent to your registered email. Please enter the OTP below.<span class="required">*</span></div>
+                                <input type="text" class="form-control" id="EmailCode" name="EmailCode" value="">
+                            </div>
+                            <div class="col-12 pt-3">
+                                <hr>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <div class="alert alert-warning text-center">Please enter the travel details below</div>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="TravelDate" class="form-label">
+                                    Travel Date
+                                        <span class="text-danger">*</span>
+                                </label>
+                                <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input type="text" class="form-control k-input" id="TravelDate" name="TravelDate" value="" data-role="datepicker" role="combobox" aria-expanded="false" aria-owns="TravelDate_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="TravelDate_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                                <script>
+                                    $(function () {
+                                    var tomorrow = new Date();
+                                    tomorrow.setDate(tomorrow.getDate() + 1);
+                                        $("#TravelDate").kendoDatePicker({
+                                            format: "{0:yyyy-MM-dd}",
+                                            min: tomorrow
+                                            // open: OnAppointmentDateOpen
+                                        });
+                                    });
+                                    function OnAppointmentDateOpen(e) {
+                                        var datePicker = this;
+                                        var current = datePicker.value() || new Date(); // Use selected date or today's date if not set
+                                        var year = current.getFullYear();
+                                        var month = current.getMonth();
+
+                                        // Get the first and last days of the month
+                                        var firstDay = new Date(year, month, 1);
+                                        var lastDay = new Date(year, month + 1, 0);
+
+                                        // Generate all dates in the month
+                                        var dates = [];
+                                        for (var d = firstDay; d <= lastDay; d.setDate(d.getDate() + 1)) {
+                                            dates.push(new Date(d));
+                                        }
+
+                                        console.log("All dates in the month:", dates);
+                                    }
+                                </script>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="IntendedDateOfArrival" class="form-label">
+                                    Intended Date Of Arrival
+                                </label>
+                                <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input type="text" class="form-control k-input" id="IntendedDateOfArrival" name="IntendedDateOfArrival" value="" data-role="datepicker" role="combobox" aria-expanded="false" aria-owns="IntendedDateOfArrival_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="IntendedDateOfArrival_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                                <script>
+                                    $(function () {
+                                    var tomorrow = new Date();
+                                    tomorrow.setDate(tomorrow.getDate() + 1);
+                                        $("#IntendedDateOfArrival").kendoDatePicker({
+                                            format: "{0:yyyy-MM-dd}",
+                                            min: tomorrow
+                                        });
+                                    });
+                                </script>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="IntendedDateOfDeparture" class="form-label">
+                                    Intended Date Of Departure
+                                </label>
+                                <span class="k-widget k-datepicker form-control" style=""><span class="k-picker-wrap k-state-default"><input type="text" class="form-control k-input" id="IntendedDateOfDeparture" name="IntendedDateOfDeparture" value="" data-role="datepicker" role="combobox" aria-expanded="false" aria-owns="IntendedDateOfDeparture_dateview" autocomplete="off" aria-disabled="false" style="width: 100%;"><span unselectable="on" class="k-select" aria-label="select" role="button" aria-controls="IntendedDateOfDeparture_dateview"><span class="k-icon k-i-calendar"></span></span></span></span>
+                                <script>
+                                    $(function () {
+                                    var tomorrow = new Date();
+                                    tomorrow.setDate(tomorrow.getDate() + 1);
+                                        $("#IntendedDateOfDeparture").kendoDatePicker({
+                                            format: "{0:yyyy-MM-dd}",
+                                            min: tomorrow
+                                        });
+                                    });
+                                </script>
+                            </div>
+                    </div>
+                    <div class="text-center row p-3">
+                        <div class="row pt-3 pb-3">
+                            <hr>
+                        </div>
+                        <div class="alert alert-warning text-center">Please select your applicant from below list</div>
+                            <div id="app-1935" class="bls-applicant alert alert-light text-left row ml-0 no-gutters" onclick="OnApplicantSelect('1935','True')">
+
+                                    <div class="col-1 align-content-center">
+                                        <input type="radio" id="rdo-1935" class="rdo-applicant">
+                                    </div>
+
+                                <div class="col-11 row">
+                                    <div class="col-12 pb-1"><span>ARSLAN  ARSLAN</span></div>
+                                    <div class="col-12">Date Of Birth:<span class="pl-1">2000-03-16</span></div>
+                                    <div class="col-12">Passport No:<span class="pl-1">HG9159659</span></div>
+                                    <div class="col-12 pt-1">Status:<span class="pl-1 text-success">OK</span></div>
+                                </div>
+
+                            </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary" id="btnSubmit" onclick="return onApplicantSelectionSubmit();" type="submit">Submit</button>
+                    </div>
+                    <div class="text-right pt-3">
+                        (<span class="required">*</span>)&nbsp;<span>Mandatory Field</span>
+                    </div>
+                </div>
+                
+                <input id="ResponseData" name="ResponseData" type="hidden" value="{&quot;ppuym&quot;:&quot;&quot;,&quot;tdmuy&quot;:&quot;&quot;,&quot;geljgdmc&quot;:&quot;&quot;,&quot;ykgbzdc&quot;:&quot;2025-09-18&quot;,&quot;tcxqkfn&quot;:&quot;&quot;,&quot;nbrrc&quot;:&quot;&quot;,&quot;rxdny&quot;:&quot;&quot;,&quot;yfqvgjaj&quot;:&quot;7086&quot;,&quot;oukncio&quot;:&quot;&quot;,&quot;ecqpxy&quot;:&quot;&quot;}">
+                <input id="Data" name="Data" type="hidden" value="KIVT0VBdSzM61VpiA9He9+dxC/wB6AJwsfdV2y4lcOB94o7x/FTmfWzJuADiOVeKcniGqp2tJCNJ+A20G1pjLt3OdmGq6cnKDdbbxRFC/IqHeeoSsaQXlrD40XM79/njuqUH5kenRz6QpKDIkIJBwG9iC+AHrI7MQ7jp227xVsX318isE+qNIEJnl1A7fk0vWeFO/3KHAZ/oOpGYKEvHYUekhzzJEasi+GpmPWMJhGikLtXj+XxDxMKb55mfscxjCdRACo7Y7l3EOX3/EMyhFTOI4VDpYZkzfRhSeLh90RUh/Rtc3WM9XEFazIPnl8TC">
+                <input id="ApplicantPhotoId" name="ApplicantPhotoId" type="hidden" value="">
+                <input id="SelectedApplicants" name="SelectedApplicants" type="hidden" value="">
+                <input id="ServerFlightDate" name="ServerFlightDate" type="hidden" value="">
+                <input id="ServerIntendedDateOfArrival" name="ServerIntendedDateOfArrival" type="hidden" value="">
+                <input id="ServerIntendedDateOfDeparture" name="ServerIntendedDateOfDeparture" type="hidden" value="">
+                <input id="ServerTravelDate" name="ServerTravelDate" type="hidden" value="">
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8HR2AoMI3LpApkZfZPiNaiZ_8XuDFIsaHIuCemcUIvvd_0uB3rpxNloCf-Ns6ghJ5VuXayYrjv4FmwzmrnkCz4ELJ2iwU2A6xqkr3fqHspIRby9860eSHwi_F92Gs8CDeEEeklADbiowAmdndgQsYCpJ0CFBDmrFXxe7Ynw0dMJvl8FmrFzcSX8c0bqFoCxj_Q"></form>
+        </div>   here we give its a image to upload it  and then  its selects date it will give by user in env and then it will click on submit button of this page  and email given by user on tahts send otp and we will add the email password to get otp  and put here okay 

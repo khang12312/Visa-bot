@@ -1,0 +1,1 @@
+# This file makes the error directory a Python package
