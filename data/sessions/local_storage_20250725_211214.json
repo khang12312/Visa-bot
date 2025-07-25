@@ -1,0 +1,14 @@
+{
+    "t3D": "true",
+    "tADe": "animationDelay",
+    "tADu": "animationDuration",
+    "tAE": "animationend",
+    "tC": "calc",
+    "tMQ": "true",
+    "tPL": "true",
+    "tTDe": "transitionDelay",
+    "tTDu": "transitionDuration",
+    "tTE": "transitionend",
+    "tTf": "transform",
+    "tnsApp": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0"
+}

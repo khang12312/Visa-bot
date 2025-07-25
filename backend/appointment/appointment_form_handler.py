@@ -119,7 +119,11 @@ class AppointmentFormHandler:
                 EC.element_to_be_clickable((By.XPATH, option_xpath))
             )
             self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", option_elem)
-            option_elem.click()
+            try:
+                option_elem.click()
+            except Exception:
+                # Sometimes intercepted; try JS click
+                self.driver.execute_script("arguments[0].click();", option_elem)
             time.sleep(random.uniform(0.6, 1.0))
             return True
         except Exception as exc:
